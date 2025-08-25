@@ -1,6 +1,12 @@
 import {DEPOSIT, WITHDRAW} from "../actions/accountActions.js";
 import {PUT_QUOTE} from "../actions/quoteAction.js";
 
+/*
+type State {
+    balance: number,
+    quote: string
+}
+ */
 
 export const accountReducer = (state, action) => {
     switch (action.type) {
